@@ -14,6 +14,8 @@
 		CD4362402C5A325E007C066D /* MPCachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43623F2C5A325E007C066D /* MPCachedImageManager.swift */; };
 		CD4362422C5A334F007C066D /* MPImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4362412C5A334F007C066D /* MPImageCache.swift */; };
 		CD4362442C5A342D007C066D /* MPImageRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4362432C5A342D007C066D /* MPImageRetriever.swift */; };
+		CD4362472C5A3DD8007C066D /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4362462C5A3DD8007C066D /* Package.swift */; };
+		CD43624B2C5A3F03007C066D /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = CD43624A2C5A3F03007C066D /* package.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		CD43623F2C5A325E007C066D /* MPCachedImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCachedImageManager.swift; sourceTree = "<group>"; };
 		CD4362412C5A334F007C066D /* MPImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPImageCache.swift; sourceTree = "<group>"; };
 		CD4362432C5A342D007C066D /* MPImageRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPImageRetriever.swift; sourceTree = "<group>"; };
+		CD4362462C5A3DD8007C066D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		CD43624A2C5A3F03007C066D /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,12 @@
 		CD4362272C5A2FB3007C066D /* MPImageCache */ = {
 			isa = PBXGroup;
 			children = (
+				CD4362492C5A3ECD007C066D /* Tests */,
+				CD4362482C5A3E38007C066D /* Sources */,
 				CD4362282C5A2FB3007C066D /* MPImageCache.h */,
 				CD4362292C5A2FB3007C066D /* MPImageCache.docc */,
-				CD43623F2C5A325E007C066D /* MPCachedImageManager.swift */,
-				CD4362412C5A334F007C066D /* MPImageCache.swift */,
-				CD4362432C5A342D007C066D /* MPImageRetriever.swift */,
+				CD4362462C5A3DD8007C066D /* Package.swift */,
+				CD43624A2C5A3F03007C066D /* package.json */,
 			);
 			path = MPImageCache;
 			sourceTree = "<group>";
@@ -92,6 +97,23 @@
 				CD4362342C5A2FB3007C066D /* MPImageCacheTests.swift */,
 			);
 			path = MPImageCacheTests;
+			sourceTree = "<group>";
+		};
+		CD4362482C5A3E38007C066D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CD4362412C5A334F007C066D /* MPImageCache.swift */,
+				CD4362432C5A342D007C066D /* MPImageRetriever.swift */,
+				CD43623F2C5A325E007C066D /* MPCachedImageManager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CD4362492C5A3ECD007C066D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD43624B2C5A3F03007C066D /* package.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4362402C5A325E007C066D /* MPCachedImageManager.swift in Sources */,
+				CD4362472C5A3DD8007C066D /* Package.swift in Sources */,
 				CD4362442C5A342D007C066D /* MPImageRetriever.swift in Sources */,
 				CD4362422C5A334F007C066D /* MPImageCache.swift in Sources */,
 				CD43622A2C5A2FB3007C066D /* MPImageCache.docc in Sources */,

@@ -1,0 +1,19 @@
+{
+  "name":"MPImageCache",
+  "version": "0.0.1",
+  "description": "MPImageCache is a mobile library for iOS that create cache and loading image asynchronously in the app",
+  "main": "",
+  "scripts": {
+      "test": ""
+  },
+  "repository":{
+      "type": "git",
+      "url": "git+https://github.com/manishparihar948/MPImageCache.git"
+  },
+  "author": "Manish Parihar <manishparihar948@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+      "url": ""
+  },
+  "homepage": "https://github.com/manishparihar948/MPImageCache.git#readme"
+}
